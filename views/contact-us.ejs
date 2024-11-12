@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jecati Construction Services</title>
+    <link rel="stylesheet" href="/contact-us.css">
+    <link rel="shortcut icon" href="/images/JecatiLogo.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> <!-- Ensure jQuery is included -->
+</head>
+<body>
+    <header>
+        <div class="container">
+            <span class="jecati">
+                <div class="logo">
+                    <img src="/images/JecatiLogo.png" alt="Jecati Construction Services Logo">
+                </div>
+                <h2>Jecati<span>ConstructionServices</span></h2>
+            </span>
+            <nav>
+                <ul>
+                    <li><a href="/" class="nav-links">Home</a></li>
+                    <li><a href="/about-us" class="nav-links">About Us</a></li>
+                    <li><a href="/services" class="nav-links">Services</a></li>
+                    <li><a href="/contact-us" class="nav-links">Contact Us</a></li>
+                    <li><a href="/pricing" class="nav-links">Pricing</a></li>
+                    <li><button class="inquire-now" onclick="inquireNow(popup)">INQUIRE NOW</button></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="hero-container">
+                <img src="/images/excavator-contact.png" alt="Excavator">
+                <div class="text-overlay">
+                    <h2 class="contact-title">Contact Us</h2>
+                    <p class="jct-contact">JCT - Contact</p>
+                </div>
+            </div>
+        </section>
+        
+
+    <section class="contact">
+        <div class="contact-container">
+            <div class="booking-container">
+                <div class="form-box">
+                    <div class="form">
+                        <h2>- Booking Form</h2>
+                        <h3>Send Us Message</h3>
+                        <form action="/send-email" method="post">
+                            <div class="form-group">
+                                <input type="text" id="name" name="name" placeholder="Name*" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" id="email" name="email" placeholder="Email*" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="tel" id="phone" name="phone" placeholder="Phone*" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" id="address" name="address" placeholder="Address*" required>
+                            </div>
+                            <div class="form-group">
+                                <textarea id="message" name="message" rows="5" placeholder="Enter your question or message" required></textarea>
+                            </div>
+                            <button type="submit" class="button">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div> 
+            <div class="info-container">   
+                <div class="info-box">
+                    <div class="info">
+                        <h2>- Information</h2>
+                        <h3>Get In Touch</h3>
+                        <div class="info-item">
+                            <i class="fa fa-map-marker"></i>
+                            <h4>Our address</h4>
+                            <p>Lot 25 Block 12 Green Valley Subdivision,
+                                San Nicholas III 4102 Bacoor, Cavite</p>
+                            <img src="/images/gmaps-contact.png" alt="gmaps" class="gmapsContact">
+                        </div>
+                        <div class="info-item">
+                            <i class="fa fa-envelope"></i>
+                            <h4>Mail us for information</h4>
+                            <p>plukgeoffreylorenztiu@gmail.com</p>
+                        </div>
+                        <div class="info-item">
+                            <i class="fa fa-phone"></i>
+                            <h4>Contact number</h4>
+                            <p>(+63) 928 180 8210<br>(+63) 918 906 5202</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    
+        <hr>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content"></div>
+                <section class="about">
+                    <div class="container">
+                        <div class="logo-section">
+                            <img src="/images/jecati-logo-footer.png" alt="Jecati">
+                            <h2>Jecati<span>ConstructionServices</span></h2>
+                        </div>
+                        <p>Established on March 30, 2017, Jecati began its journey in the construction services and rental equipment industry over seven years ago. Led by Rygs Tiu, a young visionary with a broad range of construction experience, Jecati has built a foundation of first-hand expertise in all facets of the industry.</p>
+                        <div class="social-section">
+                            <ul>
+                                <li><img src="/images/facebook.png" alt="Faceboo"></li>
+                                <li><img src="/images/gmail.png" alt="Gmail"></li>
+                                <li><img src="/images/telegram.png" alt="Telegram"></li>
+                            </ul>
+                        </div>
+                    </div>
+                    </section>
+                    
+                <section class="phone">
+                    <div class="container">
+                    <h2>Need construction services? Contact us for more inquiries!</h2>
+                    <div class="phone-section">
+                        <img src="/images/phone.png" alt="Phone">
+                        <ul>
+                            <li class="phone1">0928 180 8210</li>
+                            <li class="phone2">0918 906 5202</li>
+                        </ul>
+                    </div>
+                    </div>
+                </section>
+    
+                <section class="services">
+                    <div class="container">
+                        <h2>Our Services</h2>
+                        <hr class="footer-hr">
+                        <ul>
+                            <li><span style="color: #999999;">&gt;</span> Concrete Demolition</li>
+                            <li><span style="color: #999999;">&gt;</span> Stump Removal</li>
+                            <li><span style="color: #999999;">&gt;</span> Construction Services</li>
+                            <li><span style="color: #999999;">&gt;</span> Transport Equipment</li>
+                            <li><span style="color: #999999;">&gt;</span> Backhoe on Hire</li>
+                        </ul>
+                    </div>
+                </section>
+    
+                <section class="work">
+                    <div class="container">
+                        <h2>Working Hours</h2>
+                        <hr class="footer-hr">
+                            <ul>
+                                <li><span style="color: #999999; font-size: 15px;">Monday-&gt;</span> 08:00AM - 05:00PM</li>
+                                <li><span style="color: #999999; font-size: 15px;">Tuesday-&gt;</span> 08:00AM - 05:00PM</li>
+                                <li><span style="color: #999999; font-size: 15px;">Wednesday-&gt;</span> 08:00AM - 05:00PM</li>
+                                <li><span style="color: #999999; font-size: 15px;">Thursday-&gt;</span> 08:00AM - 05:00PM</li>
+                                <li><span style="color: #999999; font-size: 15px;">Friday-&gt;</span> 08:00AM - 05:00PM</li>
+                                <li><span style="color: #999999; font-size: 15px;">Saturday-&gt;</span> 08:00AM - 05:00PM</li>
+                                <li><span style="color: #999999; font-size: 15px;">Sunday-&gt;</span> Close</li>
+                            </ul>
+                        </div>
+                    </section>
+            </div>        
+        </div>
+        <section id="copyright">
+            <p>Copyright &copy; 2024 Jecati Construction Services powered by TAKDA</p>
+            <a href="#">Privacy Policy</a>
+        </section>
+    </footer>
+    <div class="popup">
+        <span id="closeBtn">&times;</span>
+        <div id="bottomRectangle"></div>
+        <img id="windowImage" src="/images/worker.jpg" alt="Window Image">
+        <div id="bottomText">Copyright © 2024 Jecati Construction Services powered by TAKDA</div>
+    
+        <div id="policy">Privacy Policy</div>
+        <div id="inquire">Inquire<br> Now</div>
+    
+        <div id="connect">Connect with us today!</div>
+        
+        <div id="interested">Interested in our service?</div>
+        <div id="fill"> Fill in the blanks below and we'll get back to you promptly!</div>
+        <input id="fullNameInput" type="text" placeholder="Full Name" required>
+        <input id="contact" type="text" placeholder="Contact" required>
+        <input id="gmail" type="email" placeholder="Gmail Account: ex. jhonspeigths@gmail.com" required>
+    
+        <div id="service">Service</div>
+        <div id="equipment">Heavy Equipment Rental:</div>
+        <div id="construction">Construction:</div>
+    
+        <div class="checkbox-dropdown">
+            Choose Komatsu
+            <ul class="checkbox-dropdown-list">
+                <li>
+                    <label>
+                        <input type="checkbox" value="PC 20- 1200/ hr" name="equipment" />PC 20- 1200/ hr
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="checkbox" value="PC 30- 1200/ hr" name="equipment" />PC 30- 1200/ hr
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="checkbox" value="PC 150- 1800/ hr" name="equipment" />PC 150- 1800/ hr
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="checkbox" value="PC 170- 2000/ hr" name="equipment" />PC 170- 2000/ hr
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="checkbox" value="PC 200- 2300/hr" name="equipment" />PC 200- 2300/hr
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="checkbox" value="2 Mini dump truck - 2000/trip" name="equipment" />2 Mini dump truck - 2000/trip
+                    </label>
+                </li>
+            </ul>
+        </div>
+
+          <!-- Simple Dropdown -->
+          <div class="checkbox-dropdowntwo">
+            Choose Services
+            <ul class="checkbox-dropdown-list">
+                <li>
+                    <label>
+                        <input type="checkbox" value="Vejle" name="city" />Labor - 600 to 800/day personnel
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="checkbox" value="Horsens" name="city" />Equipment - 30hr down payment
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="checkbox" value="Kolding" name="city" />Diesel - 2000/day
+                    </label>
+                </li>
+
+            </ul>
+        </div>
+    
+        <div id="date">Date and Time</div>
+        <div id="duration">Duration and Due Date</div>
+    
+        <!-- Date and Time Inputs -->
+        <input id="dateInput" type="date" required>
+        <input id="timeInput" type="time" required>
+        <!-- Date and Time Inputs -->
+        <input id="dateInput2" type="date" required>
+        <input id="timeInput2" type="time" required>
+    
+        <input id="loc" type="text" placeholder="Location" required>
+        <input id="droploc" type="text" placeholder="Drop Location" required>
+    
+        <button id="submitBtn">Submit</button>
+        <button id="cancelBtn">Cancel</button>
+    </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', (event) => {
+            const popup = document.getElementsByClassName('popup')[0]; // Get the first popup element
+            const submitInquiryButton = document.getElementsByClassName('submit-inquiry')[0]; // Get the first submit inquiry button
+            const jecati = document.getElementsByClassName('jecati')[0]; // Get the first jecati button
+            const closeBtn = document.getElementById('closeBtn');
+            const cancelBtn = document.getElementById('cancelBtn')
+
+            const gmail = document.getElementById('gmail');
+            const fullname = document.getElementById('fullNameInput'); // Fix: changed 'gmail' to 'fullname'
+            const contactNumber = document.getElementById('contact'); // Fix: changed 'gmail' to 'contactNumber'
+            const services = document.getElementById('services'); // Fix: changed 'gmail' to 'services'
+            const startOfSchedule = document.getElementById('startOfSchedule'); // Fix: changed 'gmail' to 'startOfSchedule'
+            const endOfSchedule = document.getElementById('endOfSchedule'); // Fix: changed 'gmail' to 'endOfSchedule'
+            const location = document.getElementById('location'); // Fix: changed 'gmail' to 'location'
+            const dropLocation = document.getElementById('dropLocation'); // Fix: changed 'gmail' to 'dropLocation'
+
+            closeBtn.addEventListener('click', () => {
+                popup.style.display = 'none';
+            });
+
+            cancelBtn.addEventListener('click', () => {
+                popup.style.display = 'none';
+            });
+
+
+            gmail.addEventListener("keyup", () => {
+                fetch("/getData")
+                    .then(response => {
+                        if (!response.ok) {
+                            throw new Error('Network response was not ok ' + response.statusText);
+                        }
+                        return response.json();
+                    })
+                    .then(data => {
+                        const text = gmail.value;
+                        const { transaction } = data;
+                        const specifyTransaction = transaction.find(transact => transact.email === text);
+
+                        if (specifyTransaction) {
+                            fullname.value = specifyTransaction.contactPerson;
+                            contactNumber.value = specifyTransaction.contactNumber;
+                        }
+                    })
+                    .catch(error => {
+                        console.log(error);
+                    });
+            });
+        });
+
+            // Function to post 
+            function postCheckedCheckboxes(transactionId, data) {
+                fetch(`/admin/add-edit-transaction/${transactionId}`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(data)
+                })
+                    .then(response => {
+                        if (!response.ok) {
+                            throw new Error('Network response was not ok ' + response.statusText);
+                        }
+                        return response.json();
+                    })
+                    .then(responseData => {
+                        console.log('Post response:', responseData);
+                    })
+                    .catch(error => {
+                        console.error('Post error:', error);
+                    });
+            }
+
+            function openPopup(element) {
+                element.style.display = 'block';
+            }
+
+            function closePopup(element) {
+                element.style.display = 'none';
+            }
+
+ 
+    </script>
+
+</body>
+<script type="text/javascript" src="/js/script.js">
+      
+</script>
+</html>
